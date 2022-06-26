@@ -1,0 +1,89 @@
+{
+  "nomis_table": "NM_560_1",
+  "description": "QS605EW - Industry",
+  "fields": {
+    "GEOGRAPHY": {
+      "2092957703": "England and Wales",
+      "2092957699": "England",
+      "2092957700": "Wales"
+    },
+    "RURAL_URBAN": {
+      "0": "Total",
+      "100": "Urban (total)",
+      "2": "Urban major conurbation",
+      "3": "Urban minor conurbation",
+      "4": "Urban city and town",
+      "1": "Urban city and town in a sparse setting",
+      "101": "Rural (total)",
+      "8": "Rural town and fringe",
+      "5": "Rural town and fringe in a sparse setting",
+      "9": "Rural village",
+      "6": "Rural village in a sparse setting",
+      "10": "Rural hamlet and isolated dwellings",
+      "7": "Rural hamlet and isolated dwellings in a sparse setting"
+    },
+    "C_INDGEPUK11": {
+      "0": "All categories: Industry",
+      "1": "A Agriculture, forestry and fishing",
+      "2": "B Mining and quarrying",
+      "3": "C Manufacturing",
+      "4": "C10-12 Manufacturing: Food, beverages and tobacco",
+      "5": "C13-15 Manufacturing: Textiles, wearing apparel and leather and related products",
+      "6": "C16,17 Manufacturing: Wood, paper and paper products",
+      "7": "C19-22 Manufacturing: Chemicals, chemical products, rubber and plastic",
+      "8": "C23-25 Manufacturing: Low tech",
+      "9": "C26-30 Manufacturing: High tech",
+      "10": "C18, 31, 32 Manufacturing: Other",
+      "11": "D Electricity, gas, steam and air conditioning supply",
+      "12": "E Water supply, sewerage, waste management and remediation activities",
+      "13": "F Construction",
+      "14": "G Wholesale and retail trade; repair of motor vehicles and motor cycles",
+      "15": "H Transport and storage",
+      "16": "I Accommodation and food service activities",
+      "17": "J Information and communication",
+      "18": "K Financial and insurance activities",
+      "19": "L Real estate activities",
+      "20": "M Professional, scientific and technical activities",
+      "21": "N Administrative and support service activities",
+      "22": "O Public administration and defence; compulsory social security",
+      "23": "P Education",
+      "24": "Q Human health and social work activities",
+      "25": "R,S Arts, entertainment and recreation; other service activities",
+      "26": "T Activities of households as employers; undifferentiated goods - and services - producing activities of households for own use",
+      "27": "U Activities of extraterritorial organisations and bodies"
+    },
+    "MEASURES": {
+      "20100": "value",
+      "20301": "percent"
+    },
+    "FREQ": {
+      "A": "Annually"
+    }
+  },
+  "geographies": {
+    "TYPE265": "NHS area teams",
+    "TYPE266": "clinical commissioning groups",
+    "TYPE267": "built-up areas including subdivisions",
+    "TYPE269": "built-up areas",
+    "TYPE273": "national assembly for wales electoral regions 2010",
+    "TYPE274": "postcode areas",
+    "TYPE275": "postcode districts",
+    "TYPE276": "postcode sectors",
+    "TYPE277": "national assembly for wales constituencies 2010",
+    "TYPE279": "parishes 2011",
+    "TYPE282": "2011 local health boards",
+    "TYPE283": "2011 primary care trusts",
+    "TYPE284": "2011 strategic health authorities",
+    "TYPE295": "2011 wards",
+    "TYPE297": "2011 super output areas - middle layer",
+    "TYPE298": "2011 super output areas - lower layer",
+    "TYPE299": "2011 output areas",
+    "TYPE459": "local enterprise partnerships (as of April 2021)",
+    "TYPE460": "parliamentary constituencies 2010",
+    "TYPE462": "former metropolitan counties",
+    "TYPE463": "local authorities: county / unitary (prior to April 2015)",
+    "TYPE464": "local authorities: district / unitary (prior to April 2015)",
+    "TYPE480": "regions",
+    "TYPE499": "countries"
+  }
+}

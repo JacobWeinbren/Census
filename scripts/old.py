@@ -45,7 +45,7 @@ def findURL(meta, geo):
 
 #Read list of tables
 with open(loc + 'tables.txt', 'r') as f:
-    tables = f.readlines()
+    tables = [i.replace("\n", "").strip() for i in f.readlines()]
 
 #Write tables to files
 for table in tables:
