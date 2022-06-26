@@ -1,0 +1,92 @@
+{
+  "nomis_table": "NM_512_1",
+  "description": "QS112EW - Household composition - People",
+  "fields": {
+    "GEOGRAPHY": {
+      "2092957703": "England and Wales",
+      "2092957699": "England",
+      "2092957700": "Wales"
+    },
+    "RURAL_URBAN": {
+      "0": "Total",
+      "100": "Urban (total)",
+      "2": "Urban major conurbation",
+      "3": "Urban minor conurbation",
+      "4": "Urban city and town",
+      "1": "Urban city and town in a sparse setting",
+      "101": "Rural (total)",
+      "8": "Rural town and fringe",
+      "5": "Rural town and fringe in a sparse setting",
+      "9": "Rural village",
+      "6": "Rural village in a sparse setting",
+      "10": "Rural hamlet and isolated dwellings",
+      "7": "Rural hamlet and isolated dwellings in a sparse setting"
+    },
+    "C_HHCHUK11": {
+      "0": "All categories: Household composition",
+      "1": "One person household: Total",
+      "2": "One person household: Aged 65 and over",
+      "3": "One person household: Other",
+      "4": "One family only: Total",
+      "5": "One family only: All aged 65 and over",
+      "6": "One family only: Married couple: Total",
+      "7": "One family only: Married couple: No children",
+      "8": "One family only: Married couple: One dependent child",
+      "9": "One family only: Married couple: Two or more dependent children",
+      "10": "One family only: Married couple: All children non-dependent",
+      "11": "One family only: Same-sex civil partnership couple: Total",
+      "12": "One family only: Same-sex civil partnership couple: No children",
+      "13": "One family only: Same-sex civil partnership couple: One dependent child",
+      "14": "One family only: Same-sex civil partnership couple: Two or more dependent children",
+      "15": "One family only: Same-sex civil partnership couple: All children non-dependent",
+      "16": "One family only: Cohabiting couple: Total",
+      "17": "One family only: Cohabiting couple: No children",
+      "18": "One family only: Cohabiting couple: One dependent child",
+      "19": "One family only: Cohabiting couple: Two or more dependent children",
+      "20": "One family only: Cohabiting couple: All children non-dependent",
+      "21": "One family only: Lone parent: Total",
+      "22": "One family only: Lone parent: One dependent child",
+      "23": "One family only: Lone parent: Two or more dependent children",
+      "24": "One family only: Lone parent: All children non-dependent",
+      "25": "Other household types: Total",
+      "26": "Other household types: With one dependent child",
+      "27": "Other household types: With two or more dependent children",
+      "28": "Other household types: All full-time students",
+      "29": "Other household types: All aged 65 and over",
+      "30": "Other household types: Other"
+    },
+    "MEASURES": {
+      "20100": "value",
+      "20301": "percent"
+    },
+    "FREQ": {
+      "A": "Annually"
+    }
+  },
+  "geographies": {
+    "TYPE265": "NHS area teams",
+    "TYPE266": "clinical commissioning groups",
+    "TYPE267": "built-up areas including subdivisions",
+    "TYPE269": "built-up areas",
+    "TYPE273": "national assembly for wales electoral regions 2010",
+    "TYPE274": "postcode areas",
+    "TYPE275": "postcode districts",
+    "TYPE276": "postcode sectors",
+    "TYPE277": "national assembly for wales constituencies 2010",
+    "TYPE279": "parishes 2011",
+    "TYPE282": "2011 local health boards",
+    "TYPE283": "2011 primary care trusts",
+    "TYPE284": "2011 strategic health authorities",
+    "TYPE295": "2011 wards",
+    "TYPE297": "2011 super output areas - middle layer",
+    "TYPE298": "2011 super output areas - lower layer",
+    "TYPE299": "2011 output areas",
+    "TYPE459": "local enterprise partnerships (as of April 2021)",
+    "TYPE460": "parliamentary constituencies 2010",
+    "TYPE462": "former metropolitan counties",
+    "TYPE463": "local authorities: county / unitary (prior to April 2015)",
+    "TYPE464": "local authorities: district / unitary (prior to April 2015)",
+    "TYPE480": "regions",
+    "TYPE499": "countries"
+  }
+}

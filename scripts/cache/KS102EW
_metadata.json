@@ -1,0 +1,80 @@
+{
+  "nomis_table": "NM_145_1",
+  "description": "KS102EW - Age structure",
+  "fields": {
+    "GEOGRAPHY": {
+      "2092957703": "England and Wales",
+      "2092957699": "England",
+      "2092957700": "Wales"
+    },
+    "RURAL_URBAN": {
+      "0": "Total",
+      "100": "Urban (total)",
+      "2": "Urban major conurbation",
+      "3": "Urban minor conurbation",
+      "4": "Urban city and town",
+      "1": "Urban city and town in a sparse setting",
+      "101": "Rural (total)",
+      "8": "Rural town and fringe",
+      "5": "Rural town and fringe in a sparse setting",
+      "9": "Rural village",
+      "6": "Rural village in a sparse setting",
+      "10": "Rural hamlet and isolated dwellings",
+      "7": "Rural hamlet and isolated dwellings in a sparse setting"
+    },
+    "CELL": {
+      "0": "All usual residents",
+      "1": "Age 0 to 4",
+      "2": "Age 5 to 7",
+      "3": "Age 8 to 9",
+      "4": "Age 10 to 14",
+      "5": "Age 15",
+      "6": "Age 16 to 17",
+      "7": "Age 18 to 19",
+      "8": "Age 20 to 24",
+      "9": "Age 25 to 29",
+      "10": "Age 30 to 44",
+      "11": "Age 45 to 59",
+      "12": "Age 60 to 64",
+      "13": "Age 65 to 74",
+      "14": "Age 75 to 84",
+      "15": "Age 85 to 89",
+      "16": "Age 90 and over",
+      "17": "Mean Age",
+      "18": "Median Age"
+    },
+    "MEASURES": {
+      "20100": "value",
+      "20301": "percent"
+    },
+    "FREQ": {
+      "A": "Annually"
+    }
+  },
+  "geographies": {
+    "TYPE265": "NHS area teams",
+    "TYPE266": "clinical commissioning groups",
+    "TYPE267": "built-up areas including subdivisions",
+    "TYPE269": "built-up areas",
+    "TYPE273": "national assembly for wales electoral regions 2010",
+    "TYPE274": "postcode areas",
+    "TYPE275": "postcode districts",
+    "TYPE276": "postcode sectors",
+    "TYPE277": "national assembly for wales constituencies 2010",
+    "TYPE279": "parishes 2011",
+    "TYPE282": "2011 local health boards",
+    "TYPE283": "2011 primary care trusts",
+    "TYPE284": "2011 strategic health authorities",
+    "TYPE295": "2011 wards",
+    "TYPE297": "2011 super output areas - middle layer",
+    "TYPE298": "2011 super output areas - lower layer",
+    "TYPE299": "2011 output areas",
+    "TYPE459": "local enterprise partnerships (as of April 2021)",
+    "TYPE460": "parliamentary constituencies 2010",
+    "TYPE462": "former metropolitan counties",
+    "TYPE463": "local authorities: county / unitary (prior to April 2015)",
+    "TYPE464": "local authorities: district / unitary (prior to April 2015)",
+    "TYPE480": "regions",
+    "TYPE499": "countries"
+  }
+}

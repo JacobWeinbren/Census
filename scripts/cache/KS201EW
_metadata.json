@@ -1,0 +1,85 @@
+{
+  "nomis_table": "NM_608_1",
+  "description": "KS201EW - Ethnic group",
+  "fields": {
+    "GEOGRAPHY": {
+      "2092957703": "England and Wales",
+      "2092957699": "England",
+      "2092957700": "Wales"
+    },
+    "RURAL_URBAN": {
+      "0": "Total",
+      "100": "Urban (total)",
+      "2": "Urban major conurbation",
+      "3": "Urban minor conurbation",
+      "4": "Urban city and town",
+      "1": "Urban city and town in a sparse setting",
+      "101": "Rural (total)",
+      "8": "Rural town and fringe",
+      "5": "Rural town and fringe in a sparse setting",
+      "9": "Rural village",
+      "6": "Rural village in a sparse setting",
+      "10": "Rural hamlet and isolated dwellings",
+      "7": "Rural hamlet and isolated dwellings in a sparse setting"
+    },
+    "CELL": {
+      "0": "All usual residents",
+      "100": "White",
+      "1": "White: English/Welsh/Scottish/Northern Irish/British",
+      "2": "White: Irish",
+      "3": "White: Gypsy or Irish Traveller",
+      "4": "White: Other White",
+      "200": "Mixed/multiple ethnic groups",
+      "5": "Mixed/multiple ethnic groups: White and Black Caribbean",
+      "6": "Mixed/multiple ethnic groups: White and Black African",
+      "7": "Mixed/multiple ethnic groups: White and Asian",
+      "8": "Mixed/multiple ethnic groups: Other Mixed",
+      "300": "Asian/Asian British",
+      "9": "Asian/Asian British: Indian",
+      "10": "Asian/Asian British: Pakistani",
+      "11": "Asian/Asian British: Bangladeshi",
+      "12": "Asian/Asian British: Chinese",
+      "13": "Asian/Asian British: Other Asian",
+      "400": "Black/African/Caribbean/Black British",
+      "14": "Black/African/Caribbean/Black British: African",
+      "15": "Black/African/Caribbean/Black British: Caribbean",
+      "16": "Black/African/Caribbean/Black British: Other Black",
+      "500": "Other ethnic group",
+      "17": "Other ethnic group: Arab",
+      "18": "Other ethnic group: Any other ethnic group"
+    },
+    "MEASURES": {
+      "20100": "value",
+      "20301": "percent"
+    },
+    "FREQ": {
+      "A": "Annually"
+    }
+  },
+  "geographies": {
+    "TYPE265": "NHS area teams",
+    "TYPE266": "clinical commissioning groups",
+    "TYPE267": "built-up areas including subdivisions",
+    "TYPE269": "built-up areas",
+    "TYPE273": "national assembly for wales electoral regions 2010",
+    "TYPE274": "postcode areas",
+    "TYPE275": "postcode districts",
+    "TYPE276": "postcode sectors",
+    "TYPE277": "national assembly for wales constituencies 2010",
+    "TYPE279": "parishes 2011",
+    "TYPE282": "2011 local health boards",
+    "TYPE283": "2011 primary care trusts",
+    "TYPE284": "2011 strategic health authorities",
+    "TYPE295": "2011 wards",
+    "TYPE297": "2011 super output areas - middle layer",
+    "TYPE298": "2011 super output areas - lower layer",
+    "TYPE299": "2011 output areas",
+    "TYPE459": "local enterprise partnerships (as of April 2021)",
+    "TYPE460": "parliamentary constituencies 2010",
+    "TYPE462": "former metropolitan counties",
+    "TYPE463": "local authorities: county / unitary (prior to April 2015)",
+    "TYPE464": "local authorities: district / unitary (prior to April 2015)",
+    "TYPE480": "regions",
+    "TYPE499": "countries"
+  }
+}

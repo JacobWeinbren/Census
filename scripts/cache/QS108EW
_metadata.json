@@ -1,0 +1,71 @@
+{
+  "nomis_table": "NM_508_1",
+  "description": "QS108EW - Living Arrangements",
+  "fields": {
+    "GEOGRAPHY": {
+      "2092957703": "England and Wales",
+      "2092957699": "England",
+      "2092957700": "Wales"
+    },
+    "RURAL_URBAN": {
+      "0": "Total",
+      "100": "Urban (total)",
+      "2": "Urban major conurbation",
+      "3": "Urban minor conurbation",
+      "4": "Urban city and town",
+      "1": "Urban city and town in a sparse setting",
+      "101": "Rural (total)",
+      "8": "Rural town and fringe",
+      "5": "Rural town and fringe in a sparse setting",
+      "9": "Rural village",
+      "6": "Rural village in a sparse setting",
+      "10": "Rural hamlet and isolated dwellings",
+      "7": "Rural hamlet and isolated dwellings in a sparse setting"
+    },
+    "C_ELARPUK11": {
+      "0": "All categories: Living arrangements",
+      "1": "Living in a couple: Total",
+      "2": "Living in a couple: Married",
+      "3": "Living in a couple: Cohabiting (opposite-sex)",
+      "4": "Living in a couple: In a registered same-sex civil partnership or cohabiting (same-sex)",
+      "5": "Not living in a couple: Total",
+      "6": "Not living in a couple: Single (never married or never registered a same-sex civil partnership)",
+      "7": "Not living in a couple: Married or in a registered same-sex civil partnership",
+      "8": "Not living in a couple: Separated (but still legally married or still legally in a same-sex civil partnership)",
+      "9": "Not living in a couple: Divorced or formerly in a same-sex civil partnership which is now legally dissolved",
+      "10": "Not living in a couple: Widowed or surviving partner from a same-sex civil partnership"
+    },
+    "MEASURES": {
+      "20100": "value",
+      "20301": "percent"
+    },
+    "FREQ": {
+      "A": "Annually"
+    }
+  },
+  "geographies": {
+    "TYPE265": "NHS area teams",
+    "TYPE266": "clinical commissioning groups",
+    "TYPE267": "built-up areas including subdivisions",
+    "TYPE269": "built-up areas",
+    "TYPE273": "national assembly for wales electoral regions 2010",
+    "TYPE274": "postcode areas",
+    "TYPE275": "postcode districts",
+    "TYPE276": "postcode sectors",
+    "TYPE277": "national assembly for wales constituencies 2010",
+    "TYPE279": "parishes 2011",
+    "TYPE282": "2011 local health boards",
+    "TYPE283": "2011 primary care trusts",
+    "TYPE284": "2011 strategic health authorities",
+    "TYPE295": "2011 wards",
+    "TYPE297": "2011 super output areas - middle layer",
+    "TYPE298": "2011 super output areas - lower layer",
+    "TYPE299": "2011 output areas",
+    "TYPE459": "local enterprise partnerships (as of April 2021)",
+    "TYPE460": "parliamentary constituencies 2010",
+    "TYPE463": "local authorities: county / unitary (prior to April 2015)",
+    "TYPE464": "local authorities: district / unitary (prior to April 2015)",
+    "TYPE480": "regions",
+    "TYPE499": "countries"
+  }
+}

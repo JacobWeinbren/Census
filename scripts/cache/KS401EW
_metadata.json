@@ -1,0 +1,75 @@
+{
+  "nomis_table": "NM_618_1",
+  "description": "KS401EW - Dwellings, household spaces and accommodation type",
+  "fields": {
+    "GEOGRAPHY": {
+      "2092957703": "England and Wales",
+      "2092957699": "England",
+      "2092957700": "Wales"
+    },
+    "RURAL_URBAN": {
+      "0": "Total",
+      "100": "Urban (total)",
+      "2": "Urban major conurbation",
+      "3": "Urban minor conurbation",
+      "4": "Urban city and town",
+      "1": "Urban city and town in a sparse setting",
+      "101": "Rural (total)",
+      "8": "Rural town and fringe",
+      "5": "Rural town and fringe in a sparse setting",
+      "9": "Rural village",
+      "6": "Rural village in a sparse setting",
+      "10": "Rural hamlet and isolated dwellings",
+      "7": "Rural hamlet and isolated dwellings in a sparse setting"
+    },
+    "CELL": {
+      "0": "All categories: Dwelling type",
+      "1": "Unshared dwelling",
+      "2": "Shared dwelling: Two household spaces",
+      "3": "Shared dwelling: Three or more household spaces",
+      "4": "All categories: Household spaces",
+      "5": "Household spaces with at least one usual resident",
+      "6": "Household spaces with no usual residents",
+      "7": "Whole house or bungalow: Detached",
+      "8": "Whole house or bungalow: Semi-detached",
+      "9": "Whole house or bungalow: Terraced (including end-terrace)",
+      "10": "Flat, maisonette or apartment: Purpose-built block of flats or tenement",
+      "11": "Flat, maisonette or apartment: Part of a converted or shared house (including bed-sits)",
+      "12": "Flat, maisonette or apartment: In a commercial building",
+      "13": "Caravan or other mobile or temporary structure"
+    },
+    "MEASURES": {
+      "20100": "value",
+      "20301": "percent"
+    },
+    "FREQ": {
+      "A": "Annually"
+    }
+  },
+  "geographies": {
+    "TYPE265": "NHS area teams",
+    "TYPE266": "clinical commissioning groups",
+    "TYPE267": "built-up areas including subdivisions",
+    "TYPE269": "built-up areas",
+    "TYPE273": "national assembly for wales electoral regions 2010",
+    "TYPE274": "postcode areas",
+    "TYPE275": "postcode districts",
+    "TYPE276": "postcode sectors",
+    "TYPE277": "national assembly for wales constituencies 2010",
+    "TYPE279": "parishes 2011",
+    "TYPE282": "2011 local health boards",
+    "TYPE283": "2011 primary care trusts",
+    "TYPE284": "2011 strategic health authorities",
+    "TYPE295": "2011 wards",
+    "TYPE297": "2011 super output areas - middle layer",
+    "TYPE298": "2011 super output areas - lower layer",
+    "TYPE299": "2011 output areas",
+    "TYPE459": "local enterprise partnerships (as of April 2021)",
+    "TYPE460": "parliamentary constituencies 2010",
+    "TYPE462": "former metropolitan counties",
+    "TYPE463": "local authorities: county / unitary (prior to April 2015)",
+    "TYPE464": "local authorities: district / unitary (prior to April 2015)",
+    "TYPE480": "regions",
+    "TYPE499": "countries"
+  }
+}
