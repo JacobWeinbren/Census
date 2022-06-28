@@ -14,30 +14,14 @@ def readMeta(table):
     meta = api.get_metadata(table)
 
     #Write metadata to file
-    createPath(loc + table)
-    with open(loc + table+ '/meta.json', 'w') as f:
+    createPath(loc + 'tables/' + table)
+    with open(loc + 'tables/' + table + '/meta.json', 'w') as f:
         ujson.dump(meta, f)
 
     #Return metadata
     return meta
 
 def findURL(meta, geo):
-
-    """
-    fields = meta['fields']
-
-    #Find thing we are measuring
-    fields.pop('nomis_table', None)
-    fields.pop('description', None)
-    fields.pop('fields', None)
-    fields.pop('RURAL_URBAN', None)
-    fields.pop('MEASURES', None)
-    fields.pop('geographies', None)
-    field = list(fields.keys())[0]
-
-    values = [int(i) for i in meta['fields'][field].keys()]
-    combined = str(min(values)) + '...' + str(max(values))
-    """
 
     table_internal = meta['nomis_table']
     url = "https://www.nomisweb.co.uk/api/v01/dataset/" + table_internal + ".data.tsv?&MEASURES=20100&RURAL_URBAN=0&date=latest&geography=" + geo + "&select=GEOGRAPHY_CODE%2CCELL%2COBS_VALUE"
@@ -56,16 +40,16 @@ for table in tables:
         print("Reading Files for", table)
 
         #Create folder
-        createPath(loc + table)
+        createPath(loc + 'tables/' + table)
 
         #Output Area EW 2011
         url = findURL(meta, "2092957703TYPE299")
-        urllib.request.urlretrieve(url, loc + table + '/output.tsv')
+        urllib.request.urlretrieve(url, loc + 'tables/' + table + '/oa.tsv')
 
         #Output Areas Middle EW 2011
         url = findURL(meta, "2092957703TYPE297")
-        urllib.request.urlretrieve(url, loc + table + '/lower.tsv')
+        urllib.request.urlretrieve(url, loc + 'tables/' + table + '/msoa.tsv')
 
         #Output Area District + Unitary EW 2011
         url = findURL(meta, "2092957703TYPE464")
-        urllib.request.urlretrieve(url, loc + table + '/district.tsv')
+        urllib.request.urlretrieve(url, loc + 'tables/' + table + '/district.tsv')
